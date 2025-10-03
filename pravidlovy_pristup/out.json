@@ -1,0 +1,45 @@
+{
+  "document_id": "sample2.pdf",
+  "source_type": "pdf",
+  "supplier": {
+    "name": "FAKTURA",
+    "vat_id": null,
+    "ico": null,
+    "address": null,
+    "iban": null,
+    "bank_account": null,
+    "email": null,
+    "phone": null
+  },
+  "customer": {
+    "name": "ODBERATEL",
+    "vat_id": null,
+    "ico": null,
+    "address": null
+  },
+  "invoice_number": "OCRTest",
+  "issue_date": null,
+  "due_date": null,
+  "delivery_date": null,
+  "currency": "EUR",
+  "total_amount": 120.0,
+  "vat_amount": 2032320332.0,
+  "subtotal_amount": null,
+  "payment_method": null,
+  "lines": [
+    {
+      "description": "Goods/Services",
+      "quantity": 1.0,
+      "unit": "",
+      "unit_price": 120.0,
+      "vat_rate": null,
+      "line_total": 120.0
+    }
+  ],
+  "notes": null,
+  "confidence": 0.9590909090909091,
+  "missing_fields": [
+    "issue_date"
+  ],
+  "status": "incomplete"
+}
